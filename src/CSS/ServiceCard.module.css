@@ -1,0 +1,36 @@
+.servicesCard{
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    
+
+    img{
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px;
+    }
+}
+
+.serviceInfo{
+    margin-top: 10px;
+
+    h3{
+        margin: 0 0 12px 0;
+        font-weight: 600;
+    }
+    p{
+        margin: 7px 0 7px 0;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .servicesCard{
+        img{
+            width: 100%;
+        }
+    }
+}

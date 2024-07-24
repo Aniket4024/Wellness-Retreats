@@ -1,0 +1,12 @@
+:root{
+    --primary-color : #E0D9CF;
+    --secondary-color : #1B3252;
+    --dark : black;
+    --light : white;
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+}

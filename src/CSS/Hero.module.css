@@ -1,0 +1,38 @@
+#Hero{
+    padding: 18px 18px 30px 18px;
+    margin: 25px auto 20px auto;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    width: 95%;
+    border-radius: 10px;
+    height: auto;
+    text-align: start;
+
+    h2{
+        font-weight: 600;
+        margin: 20px 0 7px 0;
+    }
+    p{
+        margin: 0px;
+    }
+
+}
+
+#heroImage{
+    background-image: url("../Media/heroImage.jpeg");
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+@media screen and (max-width:500px) {
+    
+    #Hero{
+        display: none;
+    }
+}
