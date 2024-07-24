@@ -38,7 +38,7 @@ const Services = () => {
         setSearch(e?.target?.value)
     }
 
-        
+
 
     
     useEffect(()=>{
@@ -65,11 +65,14 @@ const Services = () => {
         axios.get(`https://669f704cb132e2c136fdd9a0.mockapi.io/api/v1/retreats?page=${pagination}&limit=6&filter=${filter}&search=${search}`)
         .then((res)=>{
             setLoading(false)
+            setError(false)
             setData(res.data)
+            console.log(res.data)
         })
         .catch((err)=>{
-            console.log(err)
+            setLoading(false)
             setError(true)
+            console.log(err)
         })
         
     },[pagination,filter,search])
@@ -132,6 +135,7 @@ const Services = () => {
                 }
             </div>
         :
+        data?.length === 0 ? "oh" :
         error ? "Something wen wrong, Try after a minute!"
         :
         "No Data Found"

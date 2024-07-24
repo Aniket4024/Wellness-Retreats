@@ -17,3 +17,14 @@
         }
     }
 }
+
+
+@media screen and (max-width:500px) {
+    #NavBar{
+        
+        
+        div{
+            justify-content: center;
+        }
+    }
+}
