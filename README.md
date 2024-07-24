@@ -4,6 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Hi, I am Aniket 👋, I have mentioned "How can you run this app?" in this Readme file. So, To run the app please follow the steps!
+
+
 In the project directory, you can run:
 
 ### `npm start`
